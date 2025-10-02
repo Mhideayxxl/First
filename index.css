@@ -1,0 +1,124 @@
+body{
+    margin: 0px;
+    width: 100%;
+}
+.one{
+    color: white;
+    text-align: center;
+    background-color: red;
+    position: fixed;
+    width: 100%;
+}
+h1{
+    border: 3px solid white;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 5px;
+}
+h2, h3{
+    color: red;
+}
+.pict{
+    width: 100%;
+}
+.two{
+    /* text-align: center;
+    color: red;
+    margin: 15px; */
+     margin: 0 20px;   /* adds space left & right */
+      text-decoration: none;
+      font-size: 18px;
+      text-align: center;
+      color: red;
+      gap: 556px;
+}
+.two a:first-child {
+      color: red;  
+      gap: 66px;
+    }
+.two a:not(:first-child){
+      color: red;  
+    }
+.thom{
+    text-align: center;
+    padding:40px 48px 9px 7px ;
+    background-color: rgb(223, 215, 215) ;
+}
+.pic{
+    display: flex;
+    gap: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+li{
+    list-style: none;
+    display: inline;
+    padding: 20px;
+}
+ul{
+    margin: auto;
+    display: block;
+    text-align: center;
+    width:50%;
+}
+.thirty{
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 50%;
+    right: 50%;
+}
+.twenty{
+    background-color: green;
+    padding: 20px;
+    margin: 20px;
+    width: auto;
+
+
+}
+
+.overflow{
+    height:100px;
+    border: 1px solid;
+    width: 300px;
+    overflow: scroll;
+
+}
+.overflow-x{
+    height: 100px;
+    border: 1px solid;
+    width: 30%;
+    overflow-x: hidden;
+    overflow: scroll;
+}
+.tm{
+    border: 2px solid green;
+    width:300px ;
+    height: 100px;
+    overflow: auto;
+}
+.wrapper{
+width: 600px;
+}
+.container-1{
+   max-width:960px ;
+    margin: 0 auto;
+    width: 100%;
+}
+.container-2{
+    display: flex;
+}
+.box{
+    width: 100px;
+    height: 100px;
+}
+.one{
+    background-color: red;
+}
+.two{
+    background-color: green;
+}
+.three{
+    background-color: blue;
+}

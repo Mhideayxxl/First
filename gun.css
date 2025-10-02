@@ -1,0 +1,68 @@
+.boy-1{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 960px;
+    border: 2px solid;
+    height: 600px;
+}
+.boy-2{
+    display: flex;
+    /* margin: 100px; */
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    width: 200px;
+    height: 400px;
+    align-items: flex-end;
+    align-items: center;
+    flex-wrap: ;
+    justify-content: ;
+}
+.box{
+    width: 400px;
+    height: 100px;
+    /* flex-grow:1 ; */
+}
+.one{background-color: red;
+/* flex-grow: 5; */
+/* flex-shrink: 1; */
+}
+.two{
+    background-color: green;
+    /* flex-grow: 3; */
+    /* flex-shrink: 2 ; */
+}
+.three{
+    background-color: blue;
+    /* flex-grow: 6; */
+    /* flex-shrink: 3; */
+}
+.jane{
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+body{
+    margin: 0;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    
+}
+li a{
+    color: #fff;
+    text-decoration:none ;
+    display: block;
+    text-align: center;
+    padding: 20px 50px;
+}
+li a:hover{background-color: #555;
+
+}
+li{
+    flex-grow: 1 1 0;
+}

@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+.box{
+    
+    padding:30px;
+    background-color: aqua;
+}
+.box:nth-child(even){
+    /* background-color: #333; */
+}
+.container{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-columns: 1fr, 2fr,1fr;
+    grid-template-columns: 200px,300px,400px;
+    height: 600px;
+}
+.one{
+    background-color: red;
+}
+.two{
+    background-color: blue;
+}
+.three{
+    background-color: blanchedalmond;
+}
+.four{
+    background-color: aliceblue;
+}
+.five{
+    background-color: brown;
+}
+.six{
+    background-color: burlywood;
+}
+.seven{
+    background-color: coral;
+}
+.eight{
+    background-color: darkorchid;
+}
+.nine{
+    background-color: lightsalmon;
+}
